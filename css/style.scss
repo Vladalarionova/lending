@@ -1,0 +1,56 @@
+// Mixin 
+
+@mixin roboto {
+    font-family: 'Roboto Serif', serif;
+}
+
+@mixin roboto {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+// Mixin 
+
+body {
+    @include roboto;
+    color: red;
+}
+// Variables
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$padding-vertical-xs: 20px;
+$padding-vertical-sm: 60px;
+$padding-vertical: 120px;
+
+// Common
+.inner-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: $padding-vertical;
+    padding-bottom: $padding-vertical;
+
+    &--wide {
+        max-width: 1200px;
+    }
+}
+
+.section-header {
+    padding-top: $padding-vertical-xs;
+    padding-bottom: $padding-vertical-xs;
+}
+
+.section-customers {
+    padding-top: $padding-vertical-sm;
+    padding-bottom: $padding-vertical-sm;
+}
+
+.section-stats {
+    padding-top: $padding-vertical-sm;
+    padding-bottom: $padding-vertical-sm;
+}
+
+.section-footer {
+    padding-top: $padding-vertical-sm;
+    padding-bottom: $padding-vertical-sm;
+}

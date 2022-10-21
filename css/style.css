@@ -1,0 +1,34 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  color: red;
+}
+
+.inner-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.inner-wrapper--wide {
+  max-width: 1200px;
+}
+
+.section-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-customers {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-stats {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
